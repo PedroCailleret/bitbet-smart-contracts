@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144pt" height="44pt" viewBox="0.00 0.00 144.13 44.00">
+<g id="graph0" class="graph" transform="translate(4,40) scale(1)" data-name="Payment.getPubKey control flow graph">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-40 140.13,-40 140.13,4 -4,4" style=""/>
+<!-- 31985 -->
+<g id="node1" class="node" pointer-events="visible" data-name="31985">
+
+<g id="a_node1"><a xlink:href="vscode://file//home/pedro/Desktop/bitbet-sm/smart-contracts/contracts/PaymentsSolDec082022.sol:584:9" xlink:title="return pubkeyaddress\l" style="">
+<polygon fill="none" stroke="black" points="136.19,-36 -0.06,-36 -0.06,0 136.19,0 136.19,-36" style=""/>
+<text text-anchor="start" x="8" y="-13.8" font-family="Times,serif" font-size="14.00" style="">return pubkeyaddress</text>
+</a>
+</g>
+</g>
+</g>
+</svg>

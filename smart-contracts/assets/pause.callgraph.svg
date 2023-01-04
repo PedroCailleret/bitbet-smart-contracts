@@ -1,0 +1,300 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="737pt" height="1095pt" viewBox="0.00 0.00 737.08 1095.00">
+<g id="graph0" class="graph" transform="translate(52.60242023841607,1012.8459421207533) scale(0.8633395585744121)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-1091 733.08,-1091 733.08,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterPayment">
+
+<path fill="rgb(48,64,88)" stroke="rgb(48,64,88)" d="M20,-201C20,-201 709.08,-201 709.08,-201 715.08,-201 721.08,-207 721.08,-213 721.08,-213 721.08,-930 721.08,-930 721.08,-936 715.08,-942 709.08,-942 709.08,-942 20,-942 20,-942 14,-942 8,-936 8,-930 8,-930 8,-213 8,-213 8,-207 14,-201 20,-201" style=""/>
+<text text-anchor="middle" x="364.54" y="-925.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Payment</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterECDSAVerificator">
+
+<path fill="rgb(47,63,87)" stroke="rgb(64,67,88)" stroke-dasharray="5,2" d="M579.14,-62C579.14,-62 702.64,-62 702.64,-62 708.64,-62 714.64,-68 714.64,-74 714.64,-74 714.64,-181 714.64,-181 714.64,-187 708.64,-193 702.64,-193 702.64,-193 579.14,-193 579.14,-193 573.14,-193 567.14,-187 567.14,-181 567.14,-181 567.14,-74 567.14,-74 567.14,-68 573.14,-62 579.14,-62" style=""/>
+<text text-anchor="middle" x="640.89" y="-176.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ECDSAVerificator</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterIERC20">
+
+<path fill="rgb(47,63,87)" stroke="rgb(64,67,88)" stroke-dasharray="5,2" d="M312.45,-8C312.45,-8 464.88,-8 464.88,-8 470.88,-8 476.88,-14 476.88,-20 476.88,-20 476.88,-181 476.88,-181 476.88,-187 470.88,-193 464.88,-193 464.88,-193 312.45,-193 312.45,-193 306.45,-193 300.45,-187 300.45,-181 300.45,-181 300.45,-20 300.45,-20 300.45,-14 306.45,-8 312.45,-8" style=""/>
+<text text-anchor="middle" x="388.66" y="-176.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_01">
+
+<polygon fill="rgb(46,62,86)" stroke="rgb(41,55,77)" points="39.31,-950 39.31,-1079 423.66,-1079 423.66,-950 39.31,-950" style=""/>
+<text text-anchor="middle" x="231.49" y="-1062.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- Payment.&lt;Constructor&gt; -->
+<g id="node1" class="node" pointer-events="visible" data-name="Payment.&lt;Constructor&gt;">
+
+<ellipse fill="rgb(66,70,92)" stroke="rgb(66,70,92)" stroke-width="3" cx="112.31" cy="-891" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-886.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- Payment.payable -->
+<g id="node18" class="node" pointer-events="visible" data-name="Payment.payable">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-864" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-859.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- Payment.&lt;Constructor&gt;&#45;&gt;Payment.payable -->
+<g id="edge1" class="edge" data-name="Payment.&lt;Constructor&gt;-&gt;Payment.payable">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M177.29,-884.7C224.99,-880.01 289.39,-873.67 334.32,-869.25" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="334.4,-872.76 344.01,-868.3 333.72,-865.79 334.4,-872.76" style=""/>
+</g>
+<!-- Payment._validate -->
+<g id="node2" class="node" pointer-events="visible" data-name="Payment._validate">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-783" rx="46.36" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-778.8" font-family="Times,serif" font-size="14.00" style="">_validate</text>
+</g>
+<!-- Payment.toHashMessage -->
+<g id="node13" class="node" pointer-events="visible" data-name="Payment.toHashMessage">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="640.89" cy="-783" rx="72.37" ry="18" style=""/>
+<text text-anchor="middle" x="640.89" y="-778.8" font-family="Times,serif" font-size="14.00" style="">toHashMessage</text>
+</g>
+<!-- Payment._validate&#45;&gt;Payment.toHashMessage -->
+<g id="edge2" class="edge" data-name="Payment._validate-&gt;Payment.toHashMessage">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M436.43,-783C469.55,-783 514.92,-783 554.41,-783" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="554.25,-786.5 564.25,-783 554.25,-779.5 554.25,-786.5" style=""/>
+</g>
+<!-- ECDSAVerificator.toEthMessage -->
+<g id="node20" class="node" pointer-events="visible" data-name="ECDSAVerificator.toEthMessage">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="640.89" cy="-142" rx="66" ry="18" style=""/>
+<text text-anchor="middle" x="640.89" y="-137.8" font-family="Times,serif" font-size="14.00" style="">toEthMessage</text>
+</g>
+<!-- Payment._validate&#45;&gt;ECDSAVerificator.toEthMessage -->
+<g id="edge3" class="edge" data-name="Payment._validate-&gt;ECDSAVerificator.toEthMessage">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M435.03,-787.71C467.26,-788.31 508.88,-783.01 532.71,-756 615.04,-662.67 508.3,-306.67 567.14,-197 573.85,-184.5 584.77,-174.02 596.13,-165.67" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="597.76,-168.79 604.08,-160.29 593.84,-163 597.76,-168.79" style=""/>
+</g>
+<!-- ECDSAVerificator.recover -->
+<g id="node21" class="node" pointer-events="visible" data-name="ECDSAVerificator.recover">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="640.89" cy="-88" rx="39.97" ry="18" style=""/>
+<text text-anchor="middle" x="640.89" y="-83.8" font-family="Times,serif" font-size="14.00" style="">recover</text>
+</g>
+<!-- Payment._validate&#45;&gt;ECDSAVerificator.recover -->
+<g id="edge4" class="edge" data-name="Payment._validate-&gt;ECDSAVerificator.recover">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M434.76,-787.76C467.06,-788.43 508.91,-783.2 532.71,-756 626.66,-648.66 482.58,-229.88 567.14,-115 572.74,-107.39 580.74,-101.93 589.39,-98" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="590.43,-101.35 598.59,-94.59 588,-94.78 590.43,-101.35" style=""/>
+</g>
+<!-- Payment.deposit -->
+<g id="node3" class="node" pointer-events="visible" data-name="Payment.deposit">
+
+<ellipse fill="rgb(66,74,95)" stroke="rgb(66,81,102)" stroke-width="3" cx="112.31" cy="-837" rx="38.86" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-832.8" font-family="Times,serif" font-size="14.00" style="">deposit</text>
+</g>
+<!-- Payment.withdraw -->
+<g id="node4" class="node" pointer-events="visible" data-name="Payment.withdraw">
+
+<ellipse fill="rgb(66,74,95)" stroke="rgb(66,81,102)" stroke-width="3" cx="112.31" cy="-783" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-778.8" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- Payment.withdraw&#45;&gt;Payment._validate -->
+<g id="edge5" class="edge" data-name="Payment.withdraw-&gt;Payment._validate">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M161.1,-783C207.46,-783 277.96,-783 327.99,-783" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="327.85,-786.5 337.85,-783 327.85,-779.5 327.85,-786.5" style=""/>
+</g>
+<!-- Payment._validateAndGetWithdrawalLimit -->
+<g id="node12" class="node" pointer-events="visible" data-name="Payment._validateAndGetWithdrawalLimit">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-729" rx="144.09" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-724.8" font-family="Times,serif" font-size="14.00" style="">_validateAndGetWithdrawalLimit</text>
+</g>
+<!-- Payment.withdraw&#45;&gt;Payment._validateAndGetWithdrawalLimit -->
+<g id="edge6" class="edge" data-name="Payment.withdraw-&gt;Payment._validateAndGetWithdrawalLimit">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M155.85,-774.07C181.54,-768.72 214.93,-761.85 244.62,-756 259.44,-753.08 275.13,-750.05 290.49,-747.12" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="291.14,-750.56 300.31,-745.26 289.83,-743.68 291.14,-750.56" style=""/>
+</g>
+<!-- Payment.withdraw&#45;&gt;Payment.payable -->
+<g id="edge7" class="edge" data-name="Payment.withdraw-&gt;Payment.payable">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M152.3,-793.89C169.58,-798.75 190.13,-804.59 208.62,-810 253.64,-823.16 304.86,-838.67 340.95,-849.68" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="339.57,-852.92 350.16,-852.49 341.62,-846.22 339.57,-852.92" style=""/>
+</g>
+<!-- Payment.depositERC -->
+<g id="node5" class="node" pointer-events="visible" data-name="Payment.depositERC">
+
+<ellipse fill="rgb(66,74,95)" stroke="rgb(66,74,95)" stroke-width="3" cx="112.31" cy="-675" rx="57.93" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-670.8" font-family="Times,serif" font-size="14.00" style="">depositERC</text>
+</g>
+<!-- Payment.validateCurrency -->
+<g id="node15" class="node" pointer-events="visible" data-name="Payment.validateCurrency">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-675" rx="77.56" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-670.8" font-family="Times,serif" font-size="14.00" style="">validateCurrency</text>
+</g>
+<!-- Payment.depositERC&#45;&gt;Payment.validateCurrency -->
+<g id="edge8" class="edge" data-name="Payment.depositERC-&gt;Payment.validateCurrency">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M171.49,-675C207.9,-675 255.58,-675 296.9,-675" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="296.75,-678.5 306.75,-675 296.75,-671.5 296.75,-678.5" style=""/>
+</g>
+<!-- Payment.IERC20 -->
+<g id="node19" class="node" pointer-events="visible" data-name="Payment.IERC20">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-621" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-616.8" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+</g>
+<!-- Payment.depositERC&#45;&gt;Payment.IERC20 -->
+<g id="edge9" class="edge" data-name="Payment.depositERC-&gt;Payment.IERC20">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M162.53,-664.68C187.16,-659.57 217.44,-653.36 244.62,-648 274.55,-642.1 308.07,-635.76 335.13,-630.7" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="335.69,-634.16 344.88,-628.89 334.41,-627.28 335.69,-634.16" style=""/>
+</g>
+<!-- IERC20.safeTransferFrom -->
+<g id="node22" class="node" pointer-events="visible" data-name="IERC20.safeTransferFrom">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-34" rx="80.43" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-29.8" font-family="Times,serif" font-size="14.00" style="">safeTransferFrom</text>
+</g>
+<!-- Payment.depositERC&#45;&gt;IERC20.safeTransferFrom -->
+<g id="edge10" class="edge" data-name="Payment.depositERC-&gt;IERC20.safeTransferFrom">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M169.81,-670.74C184.57,-666.82 199.02,-659.92 208.62,-648 290.59,-546.21 158.17,-159.02 244.62,-61 257.57,-46.31 275.8,-38.04 294.92,-33.65" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="295.4,-37.12 304.59,-31.85 294.12,-30.24 295.4,-37.12" style=""/>
+</g>
+<!-- Payment.withdrawERC -->
+<g id="node6" class="node" pointer-events="visible" data-name="Payment.withdrawERC">
+
+<ellipse fill="rgb(66,74,95)" stroke="rgb(66,74,95)" stroke-width="3" cx="112.31" cy="-729" rx="66.08" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-724.8" font-family="Times,serif" font-size="14.00" style="">withdrawERC</text>
+</g>
+<!-- Payment.withdrawERC&#45;&gt;Payment._validate -->
+<g id="edge14" class="edge" data-name="Payment.withdrawERC-&gt;Payment._validate">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M167.25,-740.3C190.97,-745.21 219.16,-750.98 244.62,-756 273.6,-761.71 305.93,-767.84 332.52,-772.81" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="331.62,-776.2 342.09,-774.59 332.9,-769.32 331.62,-776.2" style=""/>
+</g>
+<!-- Payment.withdrawERC&#45;&gt;Payment._validateAndGetWithdrawalLimit -->
+<g id="edge15" class="edge" data-name="Payment.withdrawERC-&gt;Payment._validateAndGetWithdrawalLimit">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M179.72,-729C195.29,-729 212.53,-729 230.24,-729" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="230.16,-732.5 240.16,-729 230.16,-725.5 230.16,-732.5" style=""/>
+</g>
+<!-- Payment.withdrawERC&#45;&gt;Payment.validateCurrency -->
+<g id="edge11" class="edge" data-name="Payment.withdrawERC-&gt;Payment.validateCurrency">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M167.25,-717.7C190.97,-712.79 219.16,-707.02 244.62,-702 266.69,-697.65 290.71,-693.06 312.66,-688.92" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="313.15,-692.39 322.33,-687.1 311.86,-685.51 313.15,-692.39" style=""/>
+</g>
+<!-- Payment.withdrawERC&#45;&gt;Payment.IERC20 -->
+<g id="edge12" class="edge" data-name="Payment.withdrawERC-&gt;Payment.IERC20">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M171.24,-719.6C184.35,-715.63 197.63,-710 208.62,-702 231.93,-685.02 220.56,-663.92 244.62,-648 270.09,-631.14 303.39,-624.18 331.45,-621.53" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="331.61,-625.03 341.32,-620.8 331.09,-618.05 331.61,-625.03" style=""/>
+</g>
+<!-- IERC20.balanceOf -->
+<g id="node23" class="node" pointer-events="visible" data-name="IERC20.balanceOf">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-88" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-83.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- Payment.withdrawERC&#45;&gt;IERC20.balanceOf -->
+<g id="edge13" class="edge" data-name="Payment.withdrawERC-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M176.24,-722.82C188.69,-718.69 200.42,-712.18 208.62,-702 290.59,-600.21 158.17,-213.02 244.62,-115 264.33,-92.65 296.24,-85.16 324.93,-83.58" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="324.89,-87.09 334.8,-83.32 324.71,-80.09 324.89,-87.09" style=""/>
+</g>
+<!-- IERC20.safeTransfer -->
+<g id="node24" class="node" pointer-events="visible" data-name="IERC20.safeTransfer">
+
+<ellipse fill="rgb(65,73,86)" stroke="rgb(65,73,86)" stroke-width="3" cx="388.66" cy="-142" rx="59.08" ry="18" style=""/>
+<text text-anchor="middle" x="388.66" y="-137.8" font-family="Times,serif" font-size="14.00" style="">safeTransfer</text>
+</g>
+<!-- Payment.withdrawERC&#45;&gt;IERC20.safeTransfer -->
+<g id="edge16" class="edge" data-name="Payment.withdrawERC-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M176.17,-722.76C188.62,-718.64 200.37,-712.14 208.62,-702 279.62,-614.73 177.66,-287.41 244.62,-197 262.33,-173.08 291.88,-159.56 319.53,-151.93" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="320.26,-155.35 329.12,-149.54 318.57,-148.56 320.26,-155.35" style=""/>
+</g>
+<!-- Payment.getBalance -->
+<g id="node7" class="node" pointer-events="visible" data-name="Payment.getBalance">
+
+<ellipse fill="rgb(66,70,92)" stroke="rgb(66,70,92)" stroke-width="3" cx="112.31" cy="-621" rx="53.86" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-616.8" font-family="Times,serif" font-size="14.00" style="">getBalance</text>
+</g>
+<!-- Payment.getPubKey -->
+<g id="node8" class="node" pointer-events="visible" data-name="Payment.getPubKey">
+
+<ellipse fill="rgb(66,70,92)" stroke="rgb(66,70,92)" stroke-width="3" cx="112.31" cy="-567" rx="53.9" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-562.8" font-family="Times,serif" font-size="14.00" style="">getPubKey</text>
+</g>
+<!-- Payment.pause -->
+<g id="node9" class="node" pointer-events="visible" data-name="Payment.pause">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="112.31" cy="-513" rx="33.05" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-508.8" font-family="Times,serif" font-size="14.00" style="">pause</text>
+</g>
+<!-- Payment.resume -->
+<g id="node10" class="node" pointer-events="visible" data-name="Payment.resume">
+
+<ellipse fill="rgb(66,70,92)" stroke="rgb(66,70,92)" stroke-width="3" cx="112.31" cy="-459" rx="38.85" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-454.8" font-family="Times,serif" font-size="14.00" style="">resume</text>
+</g>
+<!-- Payment.resetWithdrawalLimit -->
+<g id="node11" class="node" pointer-events="visible" data-name="Payment.resetWithdrawalLimit">
+
+<ellipse fill="rgb(66,74,95)" stroke="rgb(66,74,95)" stroke-width="3" cx="112.31" cy="-405" rx="96.12" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-400.8" font-family="Times,serif" font-size="14.00" style="">resetWithdrawalLimit</text>
+</g>
+<!-- Payment.changePubKey -->
+<g id="node14" class="node" pointer-events="visible" data-name="Payment.changePubKey">
+
+<ellipse fill="rgb(66,74,95)" stroke="rgb(66,74,95)" stroke-width="3" cx="112.31" cy="-351" rx="69.49" ry="18" style=""/>
+<text text-anchor="middle" x="112.31" y="-346.8" font-family="Times,serif" font-size="14.00" style="">changePubKey</text>
+</g>
+<!-- Payment.restricted -->
+<g id="node16" class="node" pointer-events="visible" data-name="Payment.restricted">
+
+<polygon fill="rgb(65,73,86)" stroke="rgb(44,75,94)" stroke-width="3" points="162.98,-285.54 162.98,-300.46 133.3,-311 91.32,-311 61.63,-300.46 61.63,-285.54 91.32,-275 133.3,-275 162.98,-285.54" style=""/>
+<polygon fill="none" stroke="rgb(44,75,94)" stroke-width="3" points="166.97,-282.72 166.97,-303.28 133.98,-315 90.63,-315 57.64,-303.28 57.64,-282.72 90.63,-271 133.98,-271 166.97,-282.72" style=""/>
+<text text-anchor="middle" x="112.31" y="-288.8" font-family="Times,serif" font-size="14.00" style="">restricted</text>
+</g>
+<!-- Payment.requireNotPaused -->
+<g id="node17" class="node" pointer-events="visible" data-name="Payment.requireNotPaused">
+
+<polygon fill="rgb(65,73,86)" stroke="rgb(44,75,94)" stroke-width="3" points="198.98,-223.54 198.98,-238.46 148.21,-249 76.41,-249 25.63,-238.46 25.63,-223.54 76.41,-213 148.21,-213 198.98,-223.54" style=""/>
+<polygon fill="none" stroke="rgb(44,75,94)" stroke-width="3" points="202.98,-220.29 202.98,-241.71 148.62,-253 76,-253 21.64,-241.71 21.64,-220.29 76,-209 148.62,-209 202.98,-220.29" style=""/>
+<text text-anchor="middle" x="112.31" y="-226.8" font-family="Times,serif" font-size="14.00" style="">requireNotPaused</text>
+</g>
+<!-- key -->
+<g id="node25" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="rgb(65,73,86)" stroke="none" stroke-width="3" points="177.31,-1046 47.31,-1046 47.31,-958 177.31,-958 177.31,-1046" style=""/>
+<text text-anchor="start" x="96.95" y="-1027.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="93.06" y="-1007.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="70.51" y="-987.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="56.91" y="-967.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node26" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="rgb(65,73,86)" stroke="none" stroke-width="3" points="415.66,-1046 361.66,-1046 361.66,-958 415.66,-958 415.66,-1046" style=""/>
+<text text-anchor="start" x="378.66" y="-1027.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="378.66" y="-1007.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="rgb(48,64,88)" stroke="none" points="376.66,-982 376.66,-1002 401.66,-1002 401.66,-982 376.66,-982" style=""/>
+<text text-anchor="start" x="378.66" y="-987.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="rgb(64,67,88)" points="378.66,-964 378.66,-980 399.66,-980 399.66,-964 378.66,-964" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge17" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="rgb(44,75,94)" stroke-width="2" d="M170.31,-1032C257.12,-1032 282,-1032 362.77,-1032" style=""/>
+<polygon fill="rgb(44,75,94)" stroke="rgb(44,75,94)" stroke-width="2" points="362.63,-1035.5 372.63,-1032 362.63,-1028.5 362.63,-1035.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge18" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="rgb(66,81,102)" stroke-width="2" d="M170.31,-1012C257.12,-1012 282,-1012 362.77,-1012" style=""/>
+<polygon fill="rgb(66,81,102)" stroke="rgb(66,81,102)" stroke-width="2" points="362.63,-1015.5 372.63,-1012 362.63,-1008.5 362.63,-1015.5" style=""/>
+</g>
+</g>
+</svg>

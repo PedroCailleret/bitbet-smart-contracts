@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320pt" height="116pt" viewBox="0.00 0.00 320.18 116.00">
+<g id="graph0" class="graph" transform="translate(4,112) scale(1)">
+<title style="">G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-112 316.1798,-112 316.1798,4 -4,4" style=""></polygon>
+<!-- Payment -->
+<g id="node1" class="node">
+<title style="">Payment</title>
+<ellipse fill="none" stroke="#000000" cx="79.1373" cy="-90" rx="44.6626" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="79.1373" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Payment</text>
+</g>
+<!-- ReentrancyGuard -->
+<g id="node2" class="node">
+<title style="">ReentrancyGuard</title>
+<ellipse fill="none" stroke="#000000" cx="79.1373" cy="-18" rx="79.2748" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="79.1373" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ReentrancyGuard</text>
+</g>
+<!-- Payment&#45;&gt;ReentrancyGuard -->
+<g id="edge1" class="edge">
+<title style="">Payment-&gt;ReentrancyGuard</title>
+<path fill="none" stroke="#000000" d="M79.1373,-71.8314C79.1373,-64.131 79.1373,-54.9743 79.1373,-46.4166" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="82.6374,-46.4132 79.1373,-36.4133 75.6374,-46.4133 82.6374,-46.4132" style=""></polygon>
+</g>
+<!-- ECDSAVerificator -->
+<g id="node3" class="node">
+<title style="">ECDSAVerificator</title>
+<ellipse fill="none" stroke="#000000" cx="227.1373" cy="-90" rx="85.085" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="227.1373" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ECDSAVerificator</text>
+</g>
+</g>
+</svg>

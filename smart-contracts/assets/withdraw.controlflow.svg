@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="584pt" height="503pt" viewBox="0.00 0.00 583.67 503.20">
+<g id="graph0" class="graph" transform="translate(17.235129705722983,472.42943095709745) scale(0.9291606742509133)" data-name="Payment.withdraw control flow graph">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-499.2 579.67,-499.2 579.67,4 -4,4" style=""/>
+<!-- 31972 -->
+<g id="node1" class="node" pointer-events="visible" data-name="31972">
+
+<g id="a_node1"><a xlink:href="vscode://file//home/pedro/Desktop/bitbet-sm/smart-contracts/contracts/PaymentsSolDec082022.sol:390:9" xlink:title="nonceState++\lrequire(nonceState &gt; nonce, &quot;Nonce too high&quot;)\lrequire(\l            currency == 1,\l            &quot;Currency must be ETH, if you want to make ERC20 withdraw use withdrawERC function&quot;\l        )\lrequire(\l            address(this).balance &gt;= amount,\l            &quot;Contract doesn't have enough funds to withdraw&quot;\l        )\l_validate(\l            amount,\l            nonce,\l            currency,\l            txid,\l            receiver,\l            signature\l        )\luint256 amountWBTC = _validateAndGetWithdrawalLimit(\l            currency,\l            amount\l        )\ldailyWithdrawalLimitInWBTCBaseUnits -= amountWBTC\lemit Withdraw(receiver, amount)\llastWithdrawalCommitedTimestamp = block.timestamp\l(bool success, ) = payable(receiver).call{\l            value: amount\l        }(&quot;&quot;)\lrequire(success, &quot;Error making a transaction&quot;)\l" style="">
+<polygon fill="none" stroke="black" points="575.51,-495.3 0.16,-495.3 0.16,0.1 575.51,0.1 575.51,-495.3" style=""/>
+<text text-anchor="start" x="8" y="-478.6" font-family="Times,serif" font-size="14.00" style="">nonceState++</text>
+<text text-anchor="start" x="8" y="-461.8" font-family="Times,serif" font-size="14.00" style="">require(nonceState &gt; nonce, "Nonce too high")</text>
+<text text-anchor="start" x="8" y="-445" font-family="Times,serif" font-size="14.00" style="">require(</text>
+<text text-anchor="start" x="8" y="-428.2" font-family="Times,serif" font-size="14.00" style="">            currency == 1,</text>
+<text text-anchor="start" x="8" y="-411.4" font-family="Times,serif" font-size="14.00" style="">            "Currency must be ETH, if you want to make ERC20 withdraw use withdrawERC function"</text>
+<text text-anchor="start" x="8" y="-394.6" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-377.8" font-family="Times,serif" font-size="14.00" style="">require(</text>
+<text text-anchor="start" x="8" y="-361" font-family="Times,serif" font-size="14.00" style="">            address(this).balance &gt;= amount,</text>
+<text text-anchor="start" x="8" y="-344.2" font-family="Times,serif" font-size="14.00" style="">            "Contract doesn't have enough funds to withdraw"</text>
+<text text-anchor="start" x="8" y="-327.4" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-310.6" font-family="Times,serif" font-size="14.00" style="">_validate(</text>
+<text text-anchor="start" x="8" y="-293.8" font-family="Times,serif" font-size="14.00" style="">            amount,</text>
+<text text-anchor="start" x="8" y="-277" font-family="Times,serif" font-size="14.00" style="">            nonce,</text>
+<text text-anchor="start" x="8" y="-260.2" font-family="Times,serif" font-size="14.00" style="">            currency,</text>
+<text text-anchor="start" x="8" y="-243.4" font-family="Times,serif" font-size="14.00" style="">            txid,</text>
+<text text-anchor="start" x="8" y="-226.6" font-family="Times,serif" font-size="14.00" style="">            receiver,</text>
+<text text-anchor="start" x="8" y="-209.8" font-family="Times,serif" font-size="14.00" style="">            signature</text>
+<text text-anchor="start" x="8" y="-193" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-176.2" font-family="Times,serif" font-size="14.00" style="">uint256 amountWBTC = _validateAndGetWithdrawalLimit(</text>
+<text text-anchor="start" x="8" y="-159.4" font-family="Times,serif" font-size="14.00" style="">            currency,</text>
+<text text-anchor="start" x="8" y="-142.6" font-family="Times,serif" font-size="14.00" style="">            amount</text>
+<text text-anchor="start" x="8" y="-125.8" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-109" font-family="Times,serif" font-size="14.00" style="">dailyWithdrawalLimitInWBTCBaseUnits -= amountWBTC</text>
+<text text-anchor="start" x="8" y="-92.2" font-family="Times,serif" font-size="14.00" style="">emit Withdraw(receiver, amount)</text>
+<text text-anchor="start" x="8" y="-75.4" font-family="Times,serif" font-size="14.00" style="">lastWithdrawalCommitedTimestamp = block.timestamp</text>
+<text text-anchor="start" x="8" y="-58.6" font-family="Times,serif" font-size="14.00" style="">(bool success, ) = payable(receiver).call{</text>
+<text text-anchor="start" x="8" y="-41.8" font-family="Times,serif" font-size="14.00" style="">            value: amount</text>
+<text text-anchor="start" x="8" y="-25" font-family="Times,serif" font-size="14.00" style="">        }("")</text>
+<text text-anchor="start" x="8" y="-8.2" font-family="Times,serif" font-size="14.00" style="">require(success, "Error making a transaction")</text>
+</a>
+</g>
+</g>
+</g>
+</svg>

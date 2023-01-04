@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365pt" height="419pt" viewBox="0.00 0.00 365.10 419.20">
+<g id="graph0" class="graph" transform="translate(13.7196470962499,392.008284799949) scale(0.9291606742509133)" data-name="Payment.withdrawERC control flow graph">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-415.2 361.1,-415.2 361.1,4 -4,4" style=""/>
+<!-- 31963 -->
+<g id="node1" class="node" pointer-events="visible" data-name="31963">
+
+<g id="a_node1"><a xlink:href="vscode://file//home/pedro/Desktop/bitbet-sm/smart-contracts/contracts/PaymentsSolDec082022.sol:529:9" xlink:title="nonceState++\lrequire(nonceState &gt; nonce, &quot;Nonce too high&quot;)\lvalidateCurrency(tokenAddress, currency)\lIERC20 token = IERC20(tokenAddress)\lrequire(\l            token.balanceOf(address(this)) &gt;= amount,\l            &quot;Contract doesn't have enough funds to withdraw&quot;\l        )\l_validate(\l            amount,\l            nonce,\l            currency,\l            txid,\l            receiver,\l            signature\l        )\luint256 amountWBTC = _validateAndGetWithdrawalLimit(\l            currency,\l            amount\l        )\ltoken.safeTransfer(receiver, amount)\ldailyWithdrawalLimitInWBTCBaseUnits -= amountWBTC\lemit ERC20Withdraw(receiver, amount, tokenAddress)\llastWithdrawalCommitedTimestamp = block.timestamp\l" style="">
+<polygon fill="none" stroke="black" points="357.15,-411.3 -0.05,-411.3 -0.05,0.1 357.15,0.1 357.15,-411.3" style=""/>
+<text text-anchor="start" x="8" y="-394.6" font-family="Times,serif" font-size="14.00" style="">nonceState++</text>
+<text text-anchor="start" x="8" y="-377.8" font-family="Times,serif" font-size="14.00" style="">require(nonceState &gt; nonce, "Nonce too high")</text>
+<text text-anchor="start" x="8" y="-361" font-family="Times,serif" font-size="14.00" style="">validateCurrency(tokenAddress, currency)</text>
+<text text-anchor="start" x="8" y="-344.2" font-family="Times,serif" font-size="14.00" style="">IERC20 token = IERC20(tokenAddress)</text>
+<text text-anchor="start" x="8" y="-327.4" font-family="Times,serif" font-size="14.00" style="">require(</text>
+<text text-anchor="start" x="8" y="-310.6" font-family="Times,serif" font-size="14.00" style="">            token.balanceOf(address(this)) &gt;= amount,</text>
+<text text-anchor="start" x="8" y="-293.8" font-family="Times,serif" font-size="14.00" style="">            "Contract doesn't have enough funds to withdraw"</text>
+<text text-anchor="start" x="8" y="-277" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-260.2" font-family="Times,serif" font-size="14.00" style="">_validate(</text>
+<text text-anchor="start" x="8" y="-243.4" font-family="Times,serif" font-size="14.00" style="">            amount,</text>
+<text text-anchor="start" x="8" y="-226.6" font-family="Times,serif" font-size="14.00" style="">            nonce,</text>
+<text text-anchor="start" x="8" y="-209.8" font-family="Times,serif" font-size="14.00" style="">            currency,</text>
+<text text-anchor="start" x="8" y="-193" font-family="Times,serif" font-size="14.00" style="">            txid,</text>
+<text text-anchor="start" x="8" y="-176.2" font-family="Times,serif" font-size="14.00" style="">            receiver,</text>
+<text text-anchor="start" x="8" y="-159.4" font-family="Times,serif" font-size="14.00" style="">            signature</text>
+<text text-anchor="start" x="8" y="-142.6" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-125.8" font-family="Times,serif" font-size="14.00" style="">uint256 amountWBTC = _validateAndGetWithdrawalLimit(</text>
+<text text-anchor="start" x="8" y="-109" font-family="Times,serif" font-size="14.00" style="">            currency,</text>
+<text text-anchor="start" x="8" y="-92.2" font-family="Times,serif" font-size="14.00" style="">            amount</text>
+<text text-anchor="start" x="8" y="-75.4" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-58.6" font-family="Times,serif" font-size="14.00" style="">token.safeTransfer(receiver, amount)</text>
+<text text-anchor="start" x="8" y="-41.8" font-family="Times,serif" font-size="14.00" style="">dailyWithdrawalLimitInWBTCBaseUnits -= amountWBTC</text>
+<text text-anchor="start" x="8" y="-25" font-family="Times,serif" font-size="14.00" style="">emit ERC20Withdraw(receiver, amount, tokenAddress)</text>
+<text text-anchor="start" x="8" y="-8.2" font-family="Times,serif" font-size="14.00" style="">lastWithdrawalCommitedTimestamp = block.timestamp</text>
+</a>
+</g>
+</g>
+</g>
+</svg>

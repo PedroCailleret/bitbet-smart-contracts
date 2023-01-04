@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="528pt" height="117pt" viewBox="0.00 0.00 528.02 116.80">
+<g id="graph0" class="graph" transform="translate(4,112.80000305175781) scale(1)" data-name="Payment.resetWithdrawalLimit control flow graph">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-112.8 524.02,-112.8 524.02,4 -4,4" style=""/>
+<!-- 31995 -->
+<g id="node1" class="node" pointer-events="visible" data-name="31995">
+
+<g id="a_node1"><a xlink:href="vscode://file//home/pedro/Desktop/bitbet-sm/smart-contracts/contracts/PaymentsSolDec082022.sol:631:9" xlink:title="require(\l            lastWithdrawalLimitTimestamp + 24 hours &lt;\l                block.timestamp\l        )\ldailyWithdrawalLimitInWBTCBaseUnits = dailyWithdrawalLimitInWBTCBaseUnitsInit\llastWithdrawalLimitTimestamp = block.timestamp\l" style="">
+<polygon fill="none" stroke="black" points="520.03,-108.7 -0.01,-108.7 -0.01,-0.1 520.03,-0.1 520.03,-108.7" style=""/>
+<text text-anchor="start" x="8" y="-92.2" font-family="Times,serif" font-size="14.00" style="">require(</text>
+<text text-anchor="start" x="8" y="-75.4" font-family="Times,serif" font-size="14.00" style="">            lastWithdrawalLimitTimestamp + 24 hours &lt;</text>
+<text text-anchor="start" x="8" y="-58.6" font-family="Times,serif" font-size="14.00" style="">                block.timestamp</text>
+<text text-anchor="start" x="8" y="-41.8" font-family="Times,serif" font-size="14.00" style="">        )</text>
+<text text-anchor="start" x="8" y="-25" font-family="Times,serif" font-size="14.00" style="">dailyWithdrawalLimitInWBTCBaseUnits = dailyWithdrawalLimitInWBTCBaseUnitsInit</text>
+<text text-anchor="start" x="8" y="-8.2" font-family="Times,serif" font-size="14.00" style="">lastWithdrawalLimitTimestamp = block.timestamp</text>
+</a>
+</g>
+</g>
+</g>
+</svg>

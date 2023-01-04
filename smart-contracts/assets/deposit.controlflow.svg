@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321pt" height="50pt" viewBox="0.00 0.00 320.88 49.60">
+<g id="graph0" class="graph" transform="translate(4,45.599998474121094) scale(1)" data-name="Payment.deposit control flow graph">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-45.6 316.88,-45.6 316.88,4 -4,4" style=""/>
+<!-- 31978 -->
+<g id="node1" class="node" pointer-events="visible" data-name="31978">
+
+<g id="a_node1"><a xlink:href="vscode://file//home/pedro/Desktop/bitbet-sm/smart-contracts/contracts/PaymentsSolDec082022.sol:334:9" xlink:title="require(userId &gt; 0, &quot;User ID must be greater than 0&quot;)\lemit Deposited(msg.sender, msg.value, userId)\l" style="">
+<polygon fill="none" stroke="black" points="312.83,-41.4 0.06,-41.4 0.06,-0.2 312.83,-0.2 312.83,-41.4" style=""/>
+<text text-anchor="start" x="8" y="-25" font-family="Times,serif" font-size="14.00" style="">require(userId &gt; 0, "User ID must be greater than 0")</text>
+<text text-anchor="start" x="8" y="-8.2" font-family="Times,serif" font-size="14.00" style="">emit Deposited(msg.sender, msg.value, userId)</text>
+</a>
+</g>
+</g>
+</g>
+</svg>
